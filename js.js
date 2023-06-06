@@ -1,12 +1,5 @@
 "use strict";
 
-let myName;
-let adminName;
+let userName = prompt("Enter your name:", "Daniel");
 
-myName = 'Daniel';
-adminName = myName;
-
-alert(adminName);
-
-let ourPlanetName;
-let curentUserName;
+alert(`Your name is ${userName}`);
